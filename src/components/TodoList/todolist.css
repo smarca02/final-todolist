@@ -1,0 +1,33 @@
+.todo-list {
+  margin: 20px;
+}
+
+.todo-list ul {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  color: #353232;
+  background-image: linear-gradient(#ccffcc, #ffff99);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.todo-list li:hover {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.empty {
+  padding: 20px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 800;
+  color: #353232;
+  font-size: 1.2rem;
+}
